@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Libre+Baskerville:wght@700&display=swap');
+
+.top-nav{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: medium;
+  font-style: normal;
+}
+.navbar{
+  background-color: #4290c8;
+}
+.navbar-brand{
+  font-weight: 500;
+  font-size:30px;
+  margin-left: 2%;
+}
+.info{
+  font-family: "Libre Baskerville", serif;
+  background-color: #5fabe0;
+  height: 200px;
+  color: white;
+  font-weight: 400;
+
+}
+.info-left{
+  padding-left: 5%;
+}
+.info-right{
+  font-size:medium;
+}

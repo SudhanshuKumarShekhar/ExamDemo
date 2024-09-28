@@ -1,0 +1,35 @@
+<!-- <button mat-button (click)="openDialog()">Start test</button> -->
+<div class="m-5">
+  <mat-card class="exam-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>Scholarship Test 1</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{longText}}</p>
+    </mat-card-content>
+    <mat-card-footer class="exam-card-footer">
+      <mat-chip-set aria-label="Chihuahua traits">
+        <button class="start_btn" mat-raised-button color="primary" (click)="openDialog()">Start test</button>
+      </mat-chip-set>
+    </mat-card-footer>
+  </mat-card>
+</div>
+
+
+<!-- <div class="start_btn">
+  <button class="btn btn-primary" (click)="shoWrningPopup()">Start Test</button>
+</div>
+
+<div class="info_box" [ngClass]="shoWarning ? '':'activeInfo'">
+  <div class="info-title"><span>Some Rules of the Quitz</span></div>
+  <div class="info-list">
+    <div class="info">1. you will only <span>15 min</span> for question</div>
+    <div class="info">2. Once you select answer, it can't be undone.</div>
+    <div class="info">3. you can't select any option once time up.</div>
+    <div class="info">4. You can't exit from the quiz Once Started.</div>
+  </div>
+  <div class="buttons">
+    <button class="quit">Exit Test</button>
+    <button class="restart" (click)="startQuiz()">Continue</button>
+  </div>
+</div> -->

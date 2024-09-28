@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Some Rules of the Test</h2>
+<mat-dialog-content class="mat-typography">
+  <h4>1. you will only <span>15 min</span> for question</h4>
+  <h4>2. Once you select answer, it can't be undone.</h4>
+  <h4>3. you can't select any option once time up.</h4>
+  <h4>4. You can't exit from the quiz Once Started.</h4>
+  <p>Note: read instructions carefully</p>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Next</button>
+</mat-dialog-actions>
+

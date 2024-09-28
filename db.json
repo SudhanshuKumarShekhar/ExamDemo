@@ -1,0 +1,48 @@
+{
+  "Questions": [
+    {
+      "questionId":1,
+      "question": "which of the following is about type?",
+      "options": [
+        {
+          "answer": "Angular is based",
+          "isCorrect": false
+        },
+        {
+          "answer": "for the cup of tea",
+          "isCorrect": false
+        },
+        {
+          "answer": "Done for the day",
+          "isCorrect": true
+        },
+        {
+          "answer": "rada dsds",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionId":2,
+      "question": "what is the what?",
+      "options": [
+        {
+          "answer": "based",
+          "isCorrect": false
+        },
+        {
+          "answer": "of tea",
+          "isCorrect": false
+        },
+        {
+          "answer": "the day",
+          "isCorrect": true
+        },
+        {
+          "answer": "rada dsds",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
